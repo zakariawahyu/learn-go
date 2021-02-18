@@ -1,7 +1,12 @@
 package main
 
 import "fmt"
-
+/**
+Recursive function
+Recursive function adalah function yang memanggil dirinya sendiri.
+Kadang dalam pekerjaan, kita sering menemui kasus dimana menggunakan recursive function lebih mudah dibandingkan tidak menggunakan recursive function.
+Contoh kasusnya dalah factorial
+ */
 func factorialLoop(value int) int  {
 	result := 1
 	for i := value; i > 0; i-- {

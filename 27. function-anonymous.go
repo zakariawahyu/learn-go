@@ -1,7 +1,11 @@
 package main
 
 import "fmt"
-
+/**
+Sebelumnya setiap membuat funtion, kita akan selalu memberikan sebuah nama funtion tersebut.
+Namnun terkadang ada kalanya lebih mudah membuat funtion secara langsung di variabel atau parameter tanpa harus membuat funtion terlebih dahulu.
+Hal tersebut dinamakan anonymous function atau funtion tanpa nama
+ */
 type Blacklist func(string) bool
 
 func registerUsers(name string, blacklist Blacklist)  {
@@ -13,6 +17,7 @@ func registerUsers(name string, blacklist Blacklist)  {
 }
 
 func main()  {
+	// anonymous funtion
 	blacklist := func(name string) bool{
 		return name == "Admin"
 	}

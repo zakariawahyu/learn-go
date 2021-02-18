@@ -1,7 +1,10 @@
 package main
 
 import "fmt"
-
+/**
+Type declaration adalah kemampuan membuat ulang tipe data baru dari tipe data yang sudah ada.
+Type declaration biasanya digunakan untuk membuat alias terhadao tipe data yang sudah ada, dengan tujuan agar lebih mudah dimengeri
+ */
 func main()  {
 	type NoKTP string
 	type married bool

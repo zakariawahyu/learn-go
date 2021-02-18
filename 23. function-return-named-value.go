@@ -1,7 +1,10 @@
 package main
 
 import "fmt"
-
+/**
+Biasanya saat kita memberitahu bahwa sebuah funtion mengembalikan value, maka kita hanya mendeklarasikan tipe data return value di funtion.
+Namun kita juga bisa membuat variabel secara langsung di tipe data return funtionnya.
+ */
 func main()  {
 	firtName, midleName, lastName := getFullNameku()
 	fmt.Println(firtName)
