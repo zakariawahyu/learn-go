@@ -33,7 +33,7 @@ func main()  {
 	// layout pada golang berbeda dengan yang lain, tidak seperti Y-M-D
 	// Tapi ada format sendiri dengan
 	layout := "2006-01-02"
-	parse, err := time.Parse(layout, "1999-06-15")
+	parse, err := time.Parse(layout, "2020-06-25")
 	if err == nil {
 		fmt.Println(parse)
 	} else {
