@@ -12,5 +12,4 @@ func main()  {
 	fmt.Println("Nmor satu =", 1)
 	fmt.Println("Umur saya =", 21)
 	fmt.Println("Ini desimal tiga koma lima =", 3.5)
-
 }

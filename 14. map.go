@@ -37,6 +37,4 @@ func main()  {
 	delete(book, "ups")
 	fmt.Println("Setelah hapus =", book)
 	fmt.Println(len(book))
-
-
 }

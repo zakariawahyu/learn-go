@@ -25,5 +25,4 @@ func main()  {
 	fmt.Println(value1 != value2)
 	fmt.Println(value1 >= value2)
 	fmt.Println(value1 <= value2)
-
 }

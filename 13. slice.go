@@ -75,5 +75,4 @@ func main()  {
 	iniSlice := []int{1,3,4,5,}
 	fmt.Println(iniArray)
 	fmt.Println(iniSlice)
-
 }

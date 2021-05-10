@@ -40,5 +40,4 @@ func main() {
 	for key, value := range person{
 		fmt.Println("Key =", key, "Val =",value)
 	}
-
 }

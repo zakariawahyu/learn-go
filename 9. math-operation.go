@@ -54,8 +54,4 @@ func main()  {
 	var positif = +100 // default emang positif
 	fmt.Println(negatif)
 	fmt.Println(positif)
-
-
-
-
 }
