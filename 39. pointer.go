@@ -24,6 +24,7 @@ Membuat pointer dengan data kosong
 Golang memiliki function new yang bisa digunakan untuk membuat pointer
 Namun function new hanya mengembalikan pointer ke data kosong
  */
+
 type Address struct {
 	Kota, Propinsi, Negara string
 	KodePos int
@@ -68,5 +69,4 @@ func main()  {
 	alamat1 := new(Address)
 	alamat1.Kota = "Bandung"
 	fmt.Println("Alamat kosong :", alamat1)
-
 }

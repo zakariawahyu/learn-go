@@ -19,16 +19,19 @@ type User struct {
 type UserSlice []User
 
 // untuk mengembalikan berapa jumlah data
+
 func (value UserSlice) Len() int  {
 	return len(value)
 }
 
 // untuk mengecek apakah data i lebih kecil atau besar daripada 9
+
 func (value UserSlice) Less(i, j int) bool {
 	return value[i].Age < value[j].Age
 }
 
 // untuk menukar posisi index i dan j
+
 func (value UserSlice) Swap(i, j int)  {
 	value[i], value[j] = value[j], value[i]
 }
@@ -43,5 +46,4 @@ func main()  {
 	fmt.Println("Sebelum sort : ",users)
 	sort.Sort(UserSlice(users))
 	fmt.Println(users)
-
 }

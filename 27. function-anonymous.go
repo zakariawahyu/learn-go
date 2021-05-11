@@ -6,6 +6,7 @@ Sebelumnya setiap membuat funtion, kita akan selalu memberikan sebuah nama funti
 Namnun terkadang ada kalanya lebih mudah membuat funtion secara langsung di variabel atau parameter tanpa harus membuat funtion terlebih dahulu.
 Hal tersebut dinamakan anonymous function atau funtion tanpa nama
  */
+
 type Blacklist func(string) bool
 
 func registerUsers(name string, blacklist Blacklist)  {

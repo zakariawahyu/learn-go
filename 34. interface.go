@@ -10,6 +10,7 @@ Biasanya interface digunakan sebagai kontrak
 
 // deklarasi interface terlebih dahulu
 // berisikan method atau function
+
 type HasName interface {
 	getName() string
 }
@@ -18,6 +19,7 @@ func sayName(hasName HasName)  {
 	fmt.Println("Hello", hasName.getName())
 }
 // deklarasi struct
+
 type Person struct {
 	Name string
 }

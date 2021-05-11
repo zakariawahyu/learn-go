@@ -11,6 +11,7 @@ Untuk menjadikan sebuah parameter sebagai pointer, kita bisa menggunakan operato
  */
 
 // membuat data struct terlebih dahulu
+
 type KartuPengenal struct {
 	Nama, Alamat string
 	Umur int

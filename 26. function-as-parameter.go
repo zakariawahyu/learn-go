@@ -6,7 +6,9 @@ Funstion as parameter
 Funtion tidak hanya bisa kita simpan di dalam variabel sebagai value.
 Namun juga bisa kita gunakan sebagai parameter untuk function lain
  */
+
 // function type declaration
+
 type Filter = func(string)string
 func sayHElloWithFilter1(name string, filter Filter)  {
 	namedFilter := filter(name)

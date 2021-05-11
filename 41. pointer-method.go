@@ -8,12 +8,14 @@ Sangat direkomendasikan menggunakan pointer di method, sehingga tidak boros memo
  */
 
 // membaut struct
+
 type Man struct {
 	Name string
 }
 
 // method yang didalamnya ada pointer
 // penulisan menggunakan operator * sebagai tanda kalau itu pointer
+
 func (man *Man) Married()  {
 	man.Name = "Mr. " + man.Name
 }

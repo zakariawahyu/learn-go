@@ -10,7 +10,6 @@ Data struck disimpan dalam field
 Sederhananya struct adalah kumpulan field
  */
 
-
 /**
 Struct adalah template data atau prototype
 Struct tidak bisa langsung digunakan
@@ -19,6 +18,7 @@ Namun kita bisa membuat data/object dari struct yang telah kita buat
 
 // Biasanya penulisan nama struct menggunakan uppercase to lower
 // Atau diawali dengan huruf besar terlebih dahulu
+
 type Customer struct {
 	Name, Adress string
 	Age int

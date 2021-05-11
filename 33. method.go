@@ -7,6 +7,7 @@ Struct adalah tipe data seperti tipe data yang lainnya, bisa digunakan sebagai p
 Bisa menambahkan method kedalam struct, seakan-akan struct mempunyai function
 method adalah function 
  */
+
 type Pelanggan struct {
 	Nama, Alamat string
 	Umur int

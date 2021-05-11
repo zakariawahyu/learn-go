@@ -11,6 +11,7 @@ Interface kosong adalah interface yang tidak memiliki deklarasi method satupun ,
 
 // deklatasi interface kosong dalam function
 // karena interface kosong bisa return tipe data apa saja, disini contoh int, bool dan string
+
 func Upssh(i int) interface{}  {
 	if i == 1 {
 		return 1

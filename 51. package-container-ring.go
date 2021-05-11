@@ -36,5 +36,4 @@ func main()  {
 	angka.Do(func(angkaval interface{}) {
 		fmt.Println(angkaval)
 	})
-
 }
