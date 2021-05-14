@@ -28,8 +28,10 @@ func sayGoodbye(name string)  {
 }
 
 // bisa diakses di package lain karena penamaan function diawali dengan huruf besar
+
 func SayHello(name string) {
 	fmt.Println("Hello ini "+ name +" sedang coba membuat package helper")
 }
+
 var version = 1 // tidak bisa diakses di package lain
 var Aplication = "Belajar golang" // bisa di akses karena diawali dengan huruf besar
