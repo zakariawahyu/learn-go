@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"learn-go/interface/services"
+	"learn-go/1_basic/interface/services"
 )
 
 func main() {

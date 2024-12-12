@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"learn-go/helper"
+	"learn-go/1_basic/helper"
 )
 
-
 // Memanggil funtion dari luar package, maka dari itu harus import terlebih dahulu packagenya
-func main()  {
+func main() {
 	helper.SayHello("Zakaria")
 
 	// maksa untuk memanggil function luar package, dengan nama function diawali huruf kecil
